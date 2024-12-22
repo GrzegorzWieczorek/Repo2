@@ -1,0 +1,45 @@
+Cechy Gita:
+rozproszone
+historia nie musi być liniowa
+może istnieć wiele gałęzi jednocześnie
+merge jest połączeniem dwóch gałęzi w jeden efekt końcowy
+commit jako rzeczownik
+commit jest poleceniem “zapisania kolejnej wersji” (odnotowania jej w historii, w bazie wiedzy) - tłumaczenia na polski “złóż” / “zatwierdź”
+commit to też jest ta zapisana wcześniej wersja plików. Mówimy “pobierz sobie commita o identyfikatorze XYZ” / cofnij się do poprzedniego commita …
+każdy commit ma swój identyfikator zapisany w formie “hasza”
+
+
+
+
+
+Utworzenie repozytorium lokalnego:
+git init
+
+Ściągnięcie istniejącego:
+git clone
+
+
+Cykl pracy z plikami:
+nowy plik → git add → git commit
+edycja śledzonego pliku → git add → git commit
+
+Opcje i skróty:
+git commit -m "Opis zmiany"
+git commit -a → automatycznie uwzględnia wszystkie zmodyfikowane śledzone pliki (bez oddzielnego git add)
+git add . → prosty sposób na dodanie wszystkich nowych i zmienionych plików do poczekalni
+
+Wyciąganie innych wersji, przełączanie:
+polecenia git checkout oraz git switch - checkout jest starszy a switch nowszy, ich funkcjonalność w większości się pokrywa, ale to nie jest alias do tego samego polecenia. Mają inne opcje i zachowania domyślne.
+git checkout HASH → wczytanie wersji projektu z określonego commita
+
+Tworzenie gałęzi (trzy sposoby):
+git branch nowagalaz
+tworzy, ale nie przełącza do niej
+git checkout -b nowagalaz
+git switch -c nowagalaz
+Przełączanie do instniejącej:
+git checkout galaz
+git switch galaz
+
+Lista gałęzi sprawdzenie:
+git branch

@@ -1,0 +1,18 @@
+Cechy Gita:
+rozproszone
+historia nie musi być liniowa
+może istnieć wiele gałęzi jednocześnie
+merge jest połączeniem dwóch gałęzi w jeden efekt końcowy
+commit jako rzeczownik
+commit jest poleceniem “zapisania kolejnej wersji” (odnotowania jej w historii, w bazie wiedzy) - tłumaczenia na polski “złóż” / “zatwierdź”
+commit to też jest ta zapisana wcześniej wersja plików. Mówimy “pobierz sobie commita o identyfikatorze XYZ” / cofnij się do poprzedniego commita …
+każdy commit ma swój identyfikator zapisany w formie “hasza”
+
+
+
+
+Utworzenie repozytorium lokalnego:
+git init
+
+Ściągnięcie istniejącego:
+git clone

@@ -1,0 +1,8 @@
+bit.ly/alxkd
+
+- edytuję pliki, dostęp przez git - warto mieć u siebie:
+Git (oryginalny), ew. dodatkowo klient gui, np sourcetree
+VS Code
+
+
+https://docs.google.com/document/d/1ywTDwqkEzX4ypik8XBfxBPS-moq1sk7UeLxTGw30Prs/edit?usp=sharing
